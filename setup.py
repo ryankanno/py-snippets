@@ -67,7 +67,7 @@ setup(
     url="http://github.com/ryankanno/py-snippets ",
     packages=packages,
     package_data={'': ['LICENSE']},
-    package_dir={'': ''},
+    package_dir={'py_snippets': 'py_snippets'},
     install_requires=requires,
     license=meta['license'],
     tests_require=tests_require,
